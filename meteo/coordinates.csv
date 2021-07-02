@@ -1,0 +1,9 @@
+name,code,lat,lon,available variables
+Bujumbura,BY000064390,-3.3170,29.3170,precipitation
+Asmara,ER000063021,15.2830,38.9170, precipitation temperature
+AddisAbabaBole,ET000063450,9.0330,38.7500, precipitation temperature
+NairobiDagoretti,KEM00063741,-1.3000,36.7500, precipitation temperature
+KigaliInternational,RWM00064387,-1.9690,30.1390, precipitation temperature
+Kartoum,SU000062721,15.6000,32.5490, precipitation temperature
+Juba,SU000062941,4.8670,31.6000, precipitation temperature
+DarEsSalaamAirport,TZ000063894,-6.8670,39.2000, precipitation temperature
