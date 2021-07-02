@@ -4,11 +4,19 @@ All the labs are availabe in multiple languages in a mybinder framework, accessi
 All the dataset used are freely available on the web, for details, please refers to the "References" section.
 
 ## Python_for_hydrologists [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/c-hydro/fp-labs-hydrology/HEAD)
-https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/1200px-Flag_of_the_United_Kingdom.svg.png
+<div align="left">
+    <img src="source/flags/eng.png" width="20px"</img> 
+</div>
 A brief intoduction to the use of Python for analysing hydrological time series.
 Some free available datasets are used as reference. 
-Further data can be integrated and downloaded. 
+Further data can be integrated and downloaded.
+<div align="left">
+    <img src="source/flags/por.png" width="20px"</img> 
+</div>
+A brief intoduction to the use of Python for analysing hydrological time series.
+Some free available datasets are used as reference. 
+Further data can be integrated and downloaded.
 
-**References**
+### References
 * NOAA - Global Historical Climatology Network Daily : https://www.ncdc.noaa.gov/ghcnd-data-access
 * BFG - Global Runoff Data Centre: https://portal.grdc.bafg.de/applications/public.html?publicuser=PublicUser#dataDownload/Stations
