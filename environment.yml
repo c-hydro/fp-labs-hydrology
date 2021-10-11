@@ -11,4 +11,4 @@ dependencies:
   - pip
   - pip:
     - lmoments3
-    - scikit-stats
+    - scikit-stats==0.1.2
