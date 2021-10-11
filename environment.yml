@@ -8,6 +8,7 @@ dependencies:
   - python-wget
   - gzip
   - scipy
+  - scikit-stats=0.1.2
   - pip
   - pip:
     - lmoments3
