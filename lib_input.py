@@ -60,8 +60,8 @@ def read_discharge_hmc(output_path='', output_name="hmc.hydrograph.txt", file_na
 #---------------------------------------------------------------
 # Function for initialize the script
 def read_data():
-    section = read_section(section_path = "/home/andrea/CIMA/PROJECT_Mozambique/training/data/buzi.info_section.txt", column_names=["r_HMC","c_HMC","basin","section","station","area","th1","th2"], format='tabular')
-    continuum_series = read_discharge_hmc(output_path='/home/andrea/CIMA/PROJECT_Mozambique/training/data/', output_name="hmc.hydrograph.txt", file_name= None, format='txt', col_names=section["section"].values)
+    section = read_section(section_path = "~/data/buzi/buzi.info_section.txt", column_names=["r_HMC","c_HMC","basin","section","station","area","th1","th2"], format='tabular')
+    continuum_series = read_discharge_hmc(output_path='~/data/buzi/', output_name="hmc.hydrograph.txt", file_name= None, format='txt', col_names=section["section"].values)
     
     section_list = [i for i in section["section"].values]
     section_chooser = widgets.Dropdown(
