@@ -26,6 +26,17 @@ Uma breve indução ao uso de Python para análise de séries temporais hidroló
 Alguns conjuntos de dados disponíveis gratuitamente são utilizados como referência. 
 Outros dados podem ser integrados e descarregados.
 
+## Warning thresholds [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/c-hydro/fp-labs-hydrology/HEAD?labpath=PT_Calculate_discharge_threshold.ipynb)
+<div align="left">
+    <img src="source/flags/eng.png" width="20px"</img> 
+</div>
+A short exercise on how to compute flood warning thresholds using Python. Relevant return period discharges (also through extrapolation) can be computed using dataseries for the Buzi watershed in Mozambique.
+<div align="left">
+    <img src="source/flags/por.png" width="20px"</img> 
+</div>
+Um pequeno exercício sobre como calcular limiares de aviso de inundação usando Python. As descargas relevantes do período de retorno (também através de extrapolação) podem ser computadas usando séries de dados para a bacia hidrográfica do Buzi em Moçambique.
+
+
 ### References
 * NOAA - Global Historical Climatology Network Daily : https://www.ncdc.noaa.gov/ghcnd-data-access
 * BFG - Global Runoff Data Centre: https://portal.grdc.bafg.de/applications/public.html?publicuser=PublicUser#dataDownload/Stations
