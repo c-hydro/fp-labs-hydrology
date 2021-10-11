@@ -7,7 +7,7 @@ dependencies:
   - matplotlib=3.2.2*
   - python-wget
   - gzip
-  - scipy
+  - scipy=1.5.2
   - pip
   - pip:
     - lmoments3
