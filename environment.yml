@@ -10,5 +10,5 @@ dependencies:
   - scipy=1.5.2
   - pip
   - pip:
-    - lmoments3
+    - git+https://github.com/OpenHydrology/lmoments3.git
     - scikit-stats==0.1.2
