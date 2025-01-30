@@ -3,12 +3,12 @@ channels:
 dependencies:
   - python=3.10
   - geopandas
-  - numpy=1.16.6
-  - matplotlib=3.2.2*
+  - numpy
+  - matplotlib
   - python-wget
   - gzip
-  - scipy=1.5.2
+  - scipy
   - pip
   - pip:
     - git+https://github.com/OpenHydrology/lmoments3.git
-    - scikit-stats==0.1.2
+    - scikit-stats
