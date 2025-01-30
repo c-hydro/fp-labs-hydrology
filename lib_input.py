@@ -45,7 +45,7 @@ def read_section(section_path = None, column_labels = None, sep="\s+", column_na
 def read_discharge_hmc(output_path='', output_name="hmc.hydrograph.txt", file_name= None, format='txt', start_time=None, end_time=None, col_names=None):
     if format=='txt':
         custom_date_parser = lambda x: datetime.datetime.strptime(x, "%Y%d%m%H%M%S")
-        hmc_discharge_df = pd.read_csv(os.path.join(output_path,output_name), header=None, delimiter=r"\s+", parse_dates=[0], index_col=[0], date_parser=custom_date_parser)
+        hmc_discharge_df = pd.read_csv(os.path.join(output_path,output_name), header=None, delimiter=r"\s+", parse_dates=[0], index_col=[0], date-format=custom_date_parser)
         if len(col_names)==len(hmc_discharge_df.columns):
             hmc_discharge_df.columns=col_names
         else:
